@@ -1,4 +1,4 @@
-# Brain Tumor Segmentation in MRI Images using U-Net
+# mri-brain-tumor-segmentation using U-Net
 
 Implementation of a U-Net based deep learning model for brain tumor segmentation in MRI images using TensorFlow and Keras.
 
@@ -112,49 +112,50 @@ The model is trained using:
 
 ---
 
-# Training Output
+# Project Output Screenshots
 
+### Training Output
 ![Training Output](screenshots/training_output.png)
 
----
-
-# Loss Graph
-
+### Loss Graph
 ![Loss Graph](screenshots/loss_graph.png)
 
----
+### IoU Evaluation
+![IoU Evaluation](screenshots/iou_score.png)
 
-# IoU Evaluation
-
-![IoU Score](screenshots/iou_score.png)
-
----
-
-# Model Architecture Screenshot
-
-![Architecture](screenshots/architecture.png)
+### Model Architecture
+![Model Architecture](screenshots/architecture.png)
 
 ---
 
 # Sample Outputs
 
-## MRI Image
-![MRI](samples/sample_mri.png)
+### Sample MRI Image
+![Sample MRI](samples/sample_mri.png)
 
-## Ground Truth Mask
-![Mask](samples/sample_mask.png)
+### Sample Mask (Ground Truth)
+![Sample Mask](samples/sample_mask.png)
 
-## Predicted Tumor Mask
-![Prediction](samples/sample_prediction.png)
+### Sample Prediction
+![Sample Prediction](samples/sample_prediction.png)
+
+---
+
+# Challenges Faced
+
+- Understanding semantic segmentation workflow
+- MRI image preprocessing
+- Training U-Net efficiently in Google Colab
+- Improving IoU score
+- Handling medical imaging datasets
 
 ---
 
 # Files Included
 
 ```text
-brain_tumor_segmentation.ipynb
+mri_segmentation_unet.ipynb
 download_data.sh
 mat_to_numpy.py
 requirements.txt
 project_notes.md
-project_summary.pdf
