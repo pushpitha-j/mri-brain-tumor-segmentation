@@ -115,29 +115,29 @@ The model is trained using:
 # Project Output Screenshots
 
 ### Training Output
-![Training Output](screenshots/training_output.png)
+![Training Output](Screenshots/training_output.png)
 
 ### Loss Graph
-![Loss Graph](screenshots/loss_graph.png)
+![Loss Graph](Screenshots/loss_graph.png)
 
 ### IoU Evaluation
-![IoU Evaluation](screenshots/iou_score.png)
+![IoU Evaluation](Screenshots/iou_score.png)
 
 ### Model Architecture
-![Model Architecture](screenshots/architecture.png)
+![Model Architecture](Screenshots/architecture.png)
 
 ---
 
 # Sample Outputs
 
 ### Sample MRI Image
-![Sample MRI](samples/sample_mri.png)
+![Sample MRI](Samples/sample_mri.png)
 
 ### Sample Mask (Ground Truth)
-![Sample Mask](samples/sample_mask.png)
+![Sample Mask](Samples/sample_mask.png)
 
 ### Sample Prediction
-![Sample Prediction](samples/sample_prediction.png)
+![Sample Prediction](Samples/sample_prediction.png)
 
 ---
 
