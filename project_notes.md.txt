@@ -1,0 +1,26 @@
+# Project Notes
+
+## Concepts Learned
+
+### CNN
+Convolutional Neural Networks are used to extract spatial features from MRI images.
+
+### Conv2D
+Conv2D kernels help in detecting tumor-related image patterns.
+
+### U-Net
+U-Net is an encoder-decoder architecture used for biomedical image segmentation.
+
+### Binary Segmentation
+The output segmentation mask contains:
+- 0 → background
+- 1 → tumor region
+
+### model.fit()
+Used for training the segmentation model using MRI images and masks.
+
+### IoU
+Intersection over Union compares predicted segmentation masks with actual masks.
+
+### Adam Optimizer
+Adam optimizer is used for efficient model training.
